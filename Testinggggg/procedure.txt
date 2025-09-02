@@ -1,0 +1,25 @@
+
+pip install -r requirements.txt
+use the above code to install the requirements.txt.
+
+Make use of .env file in you working environment for storing the api keys.
+By using the load_dotenv extract the api keys by using the assigned references for the keys.
+
+
+Activate the anaconda in the vs environment and paste the path of anaconda in the cmd prompt.
+Like this:
+C:/Users/dhanu/anaconda3/Scripts/activate
+conda activate base -> for activattion of the base.
+
+Make sure that in local command prompt install the ollama llm in the laptop.
+ollama.com windows
+
+make sure that is in the environment variables
+
+use ->   ollama pull gemma:2b
+    ->   ollama run gemma:2b
+
+Streamlit run:
+** make sure that in cmd prompt of the local environment ollama must run.
+Streamlit run app.py
+
